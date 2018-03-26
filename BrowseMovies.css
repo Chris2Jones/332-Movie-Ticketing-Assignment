@@ -9,3 +9,21 @@ footer {
 .filter {
 	padding-left: 30px;
 }
+
+.showinfo{
+	margin-left: 80px;
+	margin-right: 300px;
+}
+
+.headed{
+	margin-left: 80px;
+}
+
+
+.pushleft {
+	float: left;
+}
+
+.well {
+	width: 200px;
+}
