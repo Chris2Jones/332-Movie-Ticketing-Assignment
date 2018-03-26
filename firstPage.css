@@ -24,7 +24,8 @@ header {
 	display: block;
 	width: 100%;
 	height: 600px;
-	background: url("images/backgrnd.jpg");
+	background: url("images/backgrnd.jpg") center center no-repeat;
+	background-image: cover;
 	color: white;
 }
 
