@@ -5,3 +5,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
+
+.filter {
+	padding-left: 30px;
+}
