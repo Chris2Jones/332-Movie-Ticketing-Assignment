@@ -1,10 +1,9 @@
 header {
 	display: block;
 	width: 100%;
-	height: 110vh;
+	height: 140vh;
 	background: url("images/ipad-background.jpeg") center center no-repeat;
 	background-size: cover;
-	
 }
 
 footer {
