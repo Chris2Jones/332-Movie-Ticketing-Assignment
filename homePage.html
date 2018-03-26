@@ -2,32 +2,32 @@
 <html>
 <head>
 <link href="reset.css" type="text/css" rel="stylesheet" >
-<link href="homePage.css" type="text/css" rel="stylesheet" >
 <link rel="icon" type="image/png" href="images/movieticket.ico">
-<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="homePage.css" type="text/css" rel="stylesheet" >
 </head>
 
 <body>
 	<header>
 		<h1>Online Movie Ticket Service</h1>
 
-		<p class='centre'>Thank you for using the Online Movie Ticket Service!</p>
+		<!--<p class='centre'>Thank you for using the Online Movie Ticket Service!</p>-->
 
 		<br>
 			<div class="login-div">
 			<h2 class="centre">Login</h2>
 			
-			<form action="myfirstPHP.php" method="post">
-
-			<p class="centre">Username:
-				<input type="text" name="Username"></p>
-
-			<p class="centre">Password:
-				<input type="text" name="Password"></p>
-
-			<p class="centre"><input type="submit" name="Login"></p>
-				</form> 
-				<br>
+			<form action="/myfirstPHP.php" method="POST">
+				<div class="form-group">
+				  <label for="username">Username:</label>
+				  <input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+				  <label for="pwd">Password:</label>
+				  <input type="password" class="form-control" id="pwd">
+				</div>
+				<button type="submit" class="btn btn-default" name="Login">Submit</button>
+			  </form>
 
 			<div class="backround"><p class="centre">Dont have an account yet? <a href="createAccount.html")>Create one.</a></p>
 			</div>
