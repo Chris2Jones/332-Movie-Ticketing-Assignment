@@ -1,7 +1,16 @@
 
 h1 {
-	text-align: center;
+	font-size: 40px;
+ 	text-align: center;
 	padding-top: 50px;
+	margin: 0;
+}
+
+.login-div {
+	background: rgba(255,255,255, 0.5);
+	margin: auto;
+	width: 400px;
+	border-radius: 50px;
 }
 
 a {
@@ -23,9 +32,9 @@ a {
 header {
 	display: block;
 	width: 100%;
-	height: 600px;
-	background: url("images/backgrnd.jpg") center center no-repeat;
-	background-image: cover;
+	height: 100vh;
+	background: url("images/ipad-background.jpeg") center center no-repeat;
+	background-image:cover;
 	color: white;
 }
 
