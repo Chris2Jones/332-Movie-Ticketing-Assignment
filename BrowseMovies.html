@@ -8,16 +8,22 @@
 
 <body>
 <header>
-	
 
-</header>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Browse</a></li>
+ 		<li><a href="myTickets.html">My Tickets</a></li>
+  		<li><a href="myHistory.html">My History</a></li>
+  		<li><a href="myProfile.html">My Profile</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+	<li><a href="homePage.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br>
 
-	<ul class="nav nav-tabs">
-  <li class="active"><a href="#">Browse</a></li>
-  <li><a href="myTickets.html">My Tickets</a></li>
-  <li><a href="myHistory.html">My History</a></li>
-  <li><a href="myProfile.html">My Profile</a></li>
-</ul>
 
 <!-- 
 <table class="table table-striped">                     
@@ -37,6 +43,7 @@
 <?php -->
 <header>
 <br>
+
 <div class="dropdown filter">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Filter by
   <span class="caret"></span></button>
@@ -49,21 +56,42 @@
 <br>
 
 <ul class="list-group">
-  <li class="list-group-item">Movie Title 1, ComplexName, TheatreNum, StartTime, SeatsAvail
-
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-sm-6">
+Movie Title 1, ComplexName, TheatreNum, StartTime, SeatsAvail, RunTime, Rating</div>
+<div class="col-sm-6">
+  <button type="submit" class="btn btn-default right" name="review"">View Info</button></div>
+</div>
   </li>
-  <li class="list-group-item">Movie Title 2
 
-  </li>
-  <li class="list-group-item">Movie Title 3
 
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-sm-6">
+Movie Title 2, ComplexName, TheatreNum, StartTime, SeatsAvail, RunTime, Rating</div>
+<div class="col-sm-6">
+  <button type="submit" class="btn btn-default right" name="review"">View Info</button></div>
+</div>
   </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-sm-6">
+Movie Title 3, ComplexName, TheatreNum, StartTime, SeatsAvail, RunTime, Rating</div>
+<div class="col-sm-6">
+  <button type="submit" class="btn btn-default right" name="review"">View Info</button></div>
+</div>
+  </li>
+
 </ul>
+
 
 	<footer>
 		<p class="centre trouble bottom">Having trouble?
 		<a href="mailto:14caj4@queensu.ca">Contact support.</a> </p>
 	</footer>
+</header>
 
 </body>
 </html> 

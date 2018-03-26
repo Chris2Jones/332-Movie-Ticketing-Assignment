@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<header>
+
 <nav class="navbar navbar-fixed-top navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
@@ -35,40 +35,21 @@
 
 <br>
 <ul class="list-group">
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-sm-6">
-Movie 1, NumTicks, ComplexName, TheatreNum, Date</div>
-<div class="col-sm-6">
-  <button type="submit" class="btn btn-default right" name="review"">Write A Review</button></div>
-</div>
+  <li class="list-group-item">Movie 1, NumTicks, ComplexName, TheatreNum, Date
+
   </li>
+  <li class="list-group-item">Movie 2, NumTicks, ComplexName, TheatreNum, Date
 
-
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-sm-6">
-Movie 2, NumTicks, ComplexName, TheatreNum, Date</div>
-<div class="col-sm-6">
-  <button type="submit" class="btn btn-default right" name="review"">Write A Review</button></div>
-</div>
   </li>
+  <li class="list-group-item">Movie 3, NumTicks, ComplexName, TheatreNum, Date
 
-  <li class="list-group-item">
-    <div class="row">
-      <div class="col-sm-6">
-Movie 3, NumTicks, ComplexName, TheatreNum, Date</div>
-<div class="col-sm-6">
-  <button type="submit" class="btn btn-default right" name="review"">Write A Review</button></div>
-</div>
   </li>
-
 </ul>
 
 	<footer>
 		<p class="centre trouble bottom">Having trouble?
 		<a href="mailto:14caj4@queensu.ca">Contact support.</a> </p>
 	</footer>
-</header>
+
 </body>
 </html> 
