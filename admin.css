@@ -1,0 +1,76 @@
+header {
+	display: block;
+	width: 100%;
+	height: 110vh;
+	background: url("images/ipad-background.jpeg") center center no-repeat;
+	background-size: cover;
+	
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.blk {
+	color: black;
+}
+
+.login-div {
+	background: rgba(255,255,255, 0.8);
+	padding: 20px;
+	box-sizing: border-box;
+	margin: auto;
+	width: 700px;
+	border-radius: 50px;
+	color:dodgerblue;
+}
+
+.trouble {
+	padding: 20px 0 0 0;
+	color: white;
+}
+
+.filter {
+	padding-left: 50px;
+}
+
+.showinfo{
+	margin-left: 80px;
+	margin-right: 300px;
+}
+
+.headed{
+	margin-left: 80px;
+}
+
+
+.pushleft {
+	float: left;
+}
+
+.well {
+	width: 500px;
+}
+
+.reviewbutton{
+	text-align: center;
+	position: center;
+}
+
+.right{
+	float: right;
+}
+
+.list-group{
+	width: 1000px;
+	margin-left: 50px;
+}
+
+.marginauto {
+	margin:auto;
+	/*padding-left: 100px;*/
+}
