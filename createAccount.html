@@ -7,12 +7,7 @@
 </head>
 
 <body>
-	<header>
-		<h1>Create an Account</h1>
-
-		<p class='centre'>We need some information from you in order to create your account</p>
-
-		<br>
+	<header class="heed">
 <!-- <div class="container">
 		<div class="form-group row">
   <label for="example-text-input" class="col-2 col-form-label">Text</label>
@@ -21,18 +16,24 @@
   </div>
 </div>
 </div> -->
-		<header class="theform">
+<br>
+<br>
+		<div class="login-div">
+
+        <h1>Create an Account</h1>
+
+    <br>
 			<form action="myfirstPHP.php" method="post">
 			<div class="form-group">
 
 				<div class="form-group">
-    				<label for="email">First Name:</label>
-    				<input type="email" class="form-control" id="email" placeholder="John">
+    				<label for="fname">First Name:</label>
+    				<input type="text" class="form-control" id="email" placeholder="John">
   				</div>
 
   				<div class="form-group">
-    				<label for="email">Last Name:</label>
-    				<input type="email" class="form-control" id="email" placeholder="Doe">
+    				<label for="lname">Last Name:</label>
+    				<input type="text" class="form-control" id="email" placeholder="Doe">
   				</div>
 
 				<div class="form-group">
@@ -41,37 +42,37 @@
   				</div>
 
 				<div class="form-group">
-    				<label for="email">Username:</label>
-    				<input type="email" class="form-control" id="email" placeholder="user123">
+    				<label for="username">Username:</label>
+    				<input type="text" class="form-control" id="email" placeholder="user123">
   				</div>
 
 				<div class="form-group">
-    				<label for="email">Password:</label>
-    				<input type="email" class="form-control" id="email" placeholder="********">
+    				<label for="password">Password:</label>
+    				<input type="password" class="form-control" id="email" placeholder="********">
   				</div>
 
 				<div class="form-group">
-    				<label for="email">Confirm Password:</label>
-    				<input type="email" class="form-control" id="email" placeholder="********">
+    				<label for="Passwrdconf">Confirm Password:</label>
+    				<input type="password" class="form-control" id="email" placeholder="********">
   				</div>
 
 				<div class="form-group">
-    				<label for="email">Phone Number:</label>
-    				<input type="email" class="form-control" id="email" placeholder="123-456-7890">
+    				<label for="Phone">Phone Number:</label>
+    				<input type="Number" class="form-control" id="email" placeholder="123-456-7890">
   				</div>
 
 			</div>
-
-			<p class="centre"><input type="submit" name="CreateAccount"></p>
+    <button class="btn btn-default" type="submit" name="CreateAccount">Create Account</button>
 					</form>
-			</header>
-		
+			</div>
+
+		<footer>
+    <p class="centre trouble">Having trouble?
+    <a href="mailto:14caj4@queensu.ca">Contact support.</a> </p>
+  </footer>
+
 	</header>
 
-	<footer>
-		<p class="centre trouble">Having trouble?
-		<a href="mailto:14caj4@queensu.ca">Contact support.</a> </p>
-	</footer>
-
+	
 </body>
 </html> 
