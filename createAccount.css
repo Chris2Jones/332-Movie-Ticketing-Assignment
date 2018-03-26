@@ -14,6 +14,10 @@
 	background-color: black;
 }
 
+input {
+	width: 200px;
+}
+
 h1 {
 	text-align: center;
 	padding-top: 50px;
@@ -35,12 +39,17 @@ a {
 	padding-top: 15px;
 }
 
-header {
+/*header {
 	display: block;
 	width: 100%;
 	height: 600px;
 	background: url("images/backgrnd.jpg");
 	color: white;
+}*/
+
+.theform {
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 p { 
@@ -63,7 +72,6 @@ h2 {
 
 footer {
 	text-align: center;
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
